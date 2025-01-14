@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/7cd32daa-8e76-4c5d-95d3-c2acb21d1e9c)
 # Git Guardian: Enhanced Git Safety Script
 
 A Bash script designed to enhance the safety of critical Git commands, such as `push`, `checkout`, and `rebase`, with added warnings and confirmation prompts to help prevent common mistakes.
