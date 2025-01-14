@@ -13,7 +13,8 @@ git() {
     echo "██║   ██║██║   ██║       ██║   ██║██║   ██║██╔══██║██╔══██╗██║  ██║██║██╔══██║██║╚██╗██║";
     echo "╚██████╔╝██║   ██║       ╚██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝██║██║  ██║██║ ╚████║";
     echo " ╚═════╝ ╚═╝   ╚═╝        ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝";
-    echo "                                                                                        ";
+    echo " Code & Concept By John Rearden.  Updated and Maintained By Ben Darlington.             ";
+    echo " https://github.com/3disturbed/git-guardian/";
 
     if [[ "$1" == "push" ]]; then
         if [[ "$2" == "--force" ]]; then
