@@ -1,4 +1,4 @@
-# Enhanced git command with safety overrides for push, checkout, rebase, and push --force
+h# Enhanced git command with safety overrides for push, checkout, rebase, and push --force
 # Add this script to your ~/.bashrc or ~/.zshrc and source the file to apply changes.
 
 git() {
@@ -6,7 +6,7 @@ git() {
     GREEN='\033[0;32m'
     YELLOW='\033[0;33m'
     RESET='\033[0m'
-    
+    echo "${RESET} Your terminal is protected by";
     echo "${GREEN} ██████╗ ██╗████████╗     ██████╗ ██╗   ██╗ █████╗ ██████╗ ██████╗ ██╗ █████╗ ███╗   ██╗";
     echo "${GREEN}██╔════╝ ██║╚══██╔══╝    ██╔════╝ ██║   ██║██╔══██╗██╔══██╗██╔══██╗██║██╔══██╗████╗  ██║";
     echo "${YELLOW}██║  ███╗██║   ██║       ██║  ███╗██║   ██║███████║██████╔╝██║  ██║██║███████║██╔██╗ ██║";
